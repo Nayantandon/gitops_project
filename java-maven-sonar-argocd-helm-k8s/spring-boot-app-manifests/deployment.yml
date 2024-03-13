@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: nayandockerrepos/ultimate-cicd-pipeline:replaceImageTag
+        image: nayandockerrepos/ultimate-cicd-pipeline:2
         ports:
         - containerPort: 8080
