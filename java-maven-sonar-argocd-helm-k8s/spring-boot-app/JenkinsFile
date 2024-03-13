@@ -71,7 +71,7 @@ pipeline {
                 sh 'kubectl apply -f java-maven-sonar-argocd-helm-k8s/spring-boot-app-manifests/'
 
                 // Optionally, wait for deployment to finish
-                sh 'kubectl rollout status deployment <deployment-name>'
+                sh 'kubectl rollout status deployment ‎spring-boot-app‎'
             }
         }
     }
